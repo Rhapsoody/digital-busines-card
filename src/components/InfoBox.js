@@ -7,13 +7,15 @@ export default function InfoBox(){
             <img src={businessImg} alt="business img"/>
             <h1 className="name">Laura Marconi</h1>
             <h3 className='jobName'>Front End Web Dev</h3>
-            <small className='website' >laura.marco.website</small>
+            <p className='website' >laura.marco.website</p>
             <div className="buttons">
-                <button className="email">
-                    email
+                <button className="Email">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>Email</span>
                 </button>
                 <button className="linkedin">
-                    linkedin
+                    <i class="fa-brands fa-linkedin"></i>
+                    <span>Linkedin</span>
                 </button>
             </div>
        </div>

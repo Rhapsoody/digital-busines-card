@@ -1,10 +1,16 @@
 import './index.css';
 import InfoBox from './components/InfoBox';
+import About from './components/About';
+import Interests from './components/Interests';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
       <InfoBox/>
+      <About/>
+      <Interests/>
+      <Footer/>
     </div>
   );
 }
